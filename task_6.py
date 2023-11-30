@@ -10,6 +10,7 @@ class Rectangle:
     """
     Класс прямоугольник
     :param side_a: длина стороны А
+    :param side_b: длина стороны В, по умолчанию равна 0
     """
 
     def __init__(self, side_a, side_b=0.0):
